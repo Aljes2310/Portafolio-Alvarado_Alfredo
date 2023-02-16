@@ -26,8 +26,8 @@ function App() {
           Vite+React 
           and Tailwindcss. It's deployed using Vercel.</p>
             <div className='flex flex-row sm:px-10 mt-10 gap-4 justify-center mr-10 sm:mr-0'>
-            <img src="public/vite.svg" width="50" alt="50"/> <span className='text-4xl'> + </span> 
-            <img src='public\react.svg' width="50" alt="50" /><span className='text-4xl'> + </span> 
+            <img src="/vite.svg" width="50" alt="50"/> <span className='text-4xl'> + </span> 
+            <img src='/react.svg' width="50" alt="50" /><span className='text-4xl'> + </span> 
             <img src='/tailwind.png' width="50" alt="50"/>
             </div>
           </div>
@@ -85,7 +85,7 @@ function App() {
                 <div className='flex sm:flex-row sm:gap-x-20 sm:mt-10 sm:ml-0 sm:justify-center flex-col gap-y-10 ml-10'>
           
             <img src='/react.svg' className='sm:h-28 sm:w-28 h-20 w-20'/>
-            <img src='s/tailwind.png' className='sm:h-28 sm:w-28 h-20 w-20' />
+            <img src='/tailwind.png' className='sm:h-28 sm:w-28 h-20 w-20' />
             <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" className='sm:h-28 sm:w-28 h-20 w-20'/>
             <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" className='sm:h-28 sm:w-28 h-20 w-20'/>
                   </div>
@@ -120,7 +120,7 @@ function App() {
 </div>
 {/* card 2 */}
 <div class="border-4 sm:max-w-sm rounded overflow-hidden shadow-xl mt-10 content-center border-indigo-900 border-double sm:p-5 p-2 ml-10 sm:m-0 mr-10 sm:mr-0">
-  <a href='https://github.com/RenatoCespedes/playlist-project' target="_blank">   <img class="h-full w-full sm:ml-0 sm:w-full sm:h-60 mr-10" src="src\assets\headphone.JPG"/></a>
+  <a href='https://github.com/RenatoCespedes/playlist-project' target="_blank">   <img class="h-full w-full sm:ml-0 sm:w-full sm:h-60 mr-10" src="/headphone.JPG"/></a>
   <div class="px-6 py-4 ">
     <div class="font-bold text-xl mb-2 text-center">Playlist API</div>
     <p class=" text-sm mt-5 text-center text-white sm:text-base">
