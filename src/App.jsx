@@ -1,5 +1,3 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import { BsGithub } from "react-icons/bs";
 import { AiFillLinkedin, AiOutlineMail } from "react-icons/ai";
 import { ContactUs } from './components/contact';
