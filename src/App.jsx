@@ -28,8 +28,8 @@ function App() {
           Vite+React 
           and Tailwindcss. It's deployed using Vercel.</p>
             <div className='flex flex-row sm:px-10 mt-10 gap-4 justify-center mr-10 sm:mr-0'>
-            <img src="/vite.svg" width="50" alt="50"/> <span className='text-4xl'> + </span> 
-            <img src='/react.svg' width="50" alt="50" /><span className='text-4xl'> + </span> 
+            <img src="public/vite.svg" width="50" alt="50"/> <span className='text-4xl'> + </span> 
+            <img src='public\react.svg' width="50" alt="50" /><span className='text-4xl'> + </span> 
             <img src='/tailwind.png' width="50" alt="50"/>
             </div>
           </div>
