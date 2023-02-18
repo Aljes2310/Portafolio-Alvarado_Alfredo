@@ -54,40 +54,40 @@ function App() {
         <section className="sm:min-h-screen bg-gradient-to-b from-purple-800 to-rose-400">
          
           <div className='text-center sm:pt-20 pb-20 pt-5 ml-10 sm:ml-0'>
-            <h3 className='sm:text-5xl sm:text-center mt-10 text-white font-bold sm:ml-26 text-3xl text-center sm:mr-5 px-8 mr-14'>Languages, frameworks and tools</h3>
-            <p className='sm:mt-16 mt-10 px-8 mr-14 sm:px-60 sm:justify-center font-serif sm:text-2xl text-white'>My core is Back End Development, so I know in deep about <span className='text-black  sm:text-2xl'> Python </span> (django, Flask), <span className='text-black  sm:text-2xl'>Javascript/Typescript </span>(Express, nodejs), <span className='text-black'> SQL</span> (mysql, postgresql), NOSQL (Mongodb), ORM (Prisma), Git (Work in Team).    
-            <span className='text-black sm:text-2xl'> Also, I have a basic Front End knowledge in React, Boostrap, Html, Tailwindcss. </span>
+            <h3 className='sm:text-5xl sm:text-center mt-10 text-white font-bold sm:ml-26 text-3xl text-center sm:mr-5 px-8 mr-6'>Languages, frameworks and tools</h3>
+            <p className='sm:mt-16 mt-10 px-0 mr-8 sm:px-60 sm:justify-center font-serif sm:text-2xl text-white'>My core is Back End Development, so I know in deep about <span className='text-black  sm:text-2xl'> Python </span> (django, Flask), <span className='text-black  sm:text-2xl'>Javascript/Typescript </span>(Express, nodejs), <span className='text-black'> SQL</span> (mysql, postgresql), NOSQL (Mongodb), ORM (Prisma), Git (Work in Team).    
+            <span className='text-black sm:text-2xl'> Also, I have a Front End knowledge in React, Boostrap, Html, Tailwindcss. </span> Currently, I'm learning java and machine learning in python
             </p>
-            <div className='mt-10 flex flex-row sm:flex-col gap-x-1 sm:gap-x-0 mr-20 sm:mr-0'>
+            <div className='mt-10 flex flex-row sm:flex-col gap-x-1 sm:gap-x-0 mr-6 sm:mr-0'>
               {/* python */}
-              <div className='flex sm:flex-row sm:gap-x-20 sm:mt-10 sm:ml-0 sm:justify-center flex-col gap-y-10 ml-10'> 
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" className='sm:h-28 sm:w-28 h-20 w-20'/>
-            <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="django" className='sm:h-28 sm:w-28 h-20 w-20 pt-6'/> 
-            <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" className='sm:h-28 sm:w-28 h-20 w-20'/>
-            <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" className='sm:h-28 sm:w-28 h-20 w-20' />
+              <div className='flex sm:flex-row sm:gap-x-20 sm:mt-10 sm:ml-0 sm:justify-center flex-col gap-y-0'> 
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" className='sm:h-28 sm:w-28 h-28 w-28'/>
+            <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="django" className='sm:h-28 sm:w-28 h-28 w-28 pt-6'/> 
+            <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" className='sm:h-28 sm:w-28 h-28 w-28'/>
+            <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" className='sm:h-28 sm:w-28 h-28 w-28' />
             </div>
             {/* javascript */}
-            <div className='flex sm:flex-row sm:gap-x-20 sm:mt-10 sm:ml-0 sm:justify-center flex-col gap-y-10 ml-10'>
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" className='sm:h-28 sm:w-28 h-20 w-20'/> 
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" className='sm:h-28 sm:w-28 h-20 w-20'/> 
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" className='sm:h-28 sm:w-28 h-20 w-20'/>
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" className='sm:h-28 sm:w-28 h-20 w-20'/>
+            <div className='flex sm:flex-row sm:gap-x-20 sm:mt-10 sm:ml-0 sm:justify-center flex-col gap-y-0 ml-10'>
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" className='sm:h-28 sm:w-28 h-28 w-28'/> 
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" className='sm:h-28 sm:w-28 h-28 w-28'/> 
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" className='sm:h-28 sm:w-28 h-28 w-28'/>
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" className='sm:h-28 sm:w-28 h-28 w-28'/>
             </div>
               {/* base de datos */}
-            <div className='flex sm:flex-row sm:gap-x-20 sm:mt-10 sm:ml-0 sm:justify-center flex-col gap-y-10 ml-10'>
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" className='sm:h-28 sm:w-28 h-20 w-20'/> 
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" className='sm:h-28 sm:w-28 h-20 w-20'/>
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" className='sm:h-28 sm:w-28 h-20 w-20'/> 
-            <img src="https://prismalens.vercel.app/header/logo-dark.svg" className='sm:h-28 sm:w-28 h-20 w-20'></img>
+            <div className='flex sm:flex-row sm:gap-x-20 sm:mt-10 sm:ml-0 sm:justify-center flex-col gap-y-0 ml-10'>
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" className='sm:h-28 sm:w-28 h-28 w-28'/> 
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" className='sm:h-28 sm:w-28 h-28 w-28'/>
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" className='sm:h-28 sm:w-28 h-28 w-28'/> 
+            <img src="https://prismalens.vercel.app/header/logo-dark.svg" className='sm:h-28 sm:w-28 h-28 w-28'></img>
               </div>
                 {/* front end basico */}
 
-                <div className='flex sm:flex-row sm:gap-x-20 sm:mt-10 sm:ml-0 sm:justify-center flex-col gap-y-10 ml-10'>
+                <div className='flex sm:flex-row sm:gap-x-20 sm:mt-10 sm:ml-0 sm:justify-center flex-col gap-y-0 ml-10'>
           
-            <img src='/react.svg' className='sm:h-28 sm:w-28 h-20 w-20'/>
-            <img src='/tailwind.png' className='sm:h-28 sm:w-28 h-20 w-20' />
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" className='sm:h-28 sm:w-28 h-20 w-20'/>
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" className='sm:h-28 sm:w-28 h-20 w-20'/>
+            <img src='/react.svg' className='sm:h-28 sm:w-28 h-28 w-28'/>
+            <img src='/tailwind.png' className='sm:h-28 sm:w-28 h-28 w-28' />
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" className='sm:h-28 sm:w-28 h-28 w-28'/>
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" className='sm:h-28 sm:w-28 h-28 w-28'/>
                   </div>
                 
             </div>
@@ -170,7 +170,7 @@ function App() {
       </div>
       
       <div className='border-4 border-purple-800 sm:ml-60 sm:mt-60 bg-gradient-to-b from-purple-800 to-rose-400 
-       rounded-full sm:w-96 sm:h-96 overflow-hidden h-36 w-36 ml-32'>
+       rounded-full sm:w-96 sm:h-96 overflow-hidden h-36 w-36 ml-28'>
         <img src="/yoimiya.png" 
         className='h-36 w-36  sm:w-96 sm:h-96  overflow-hidden '/>
       </div>
