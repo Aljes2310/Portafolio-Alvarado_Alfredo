@@ -99,7 +99,7 @@ function App() {
         <section className="sm:min-h-screen bg-gradient-to-b from-purple-800 to-rose-400 pb-10">
         
           <h3 className='pt-20 font-bold text-5xl text-center text-white mr-1 sm:mr-0'> Projects</h3>
-      <p className='text-center sm:text-2xl font-serif mt-12 text-white px-16 mr-3 sm:px-0 smmr-0'> The following projects was made during Back End Bootcamp using several languages and tools </p>
+      <p className='text-center sm:text-2xl font-serif mt-12 text-white px-16 mr-3 sm:px-0 smmr-0'> The following projects was made using several languages and tools. </p>
       
       {/* division */}
       <div className='flex sm:flex-row sm:gap-x-20 sm:mt-14 justify-center  border-black flex-col sm:mb-10'> 
@@ -134,7 +134,7 @@ function App() {
   <div class="sm:px-6 sm:pt-4 sm:pb-2 sm:gap-x-10 grid grid-cols-2 text-center sm:mt-6">
   <span class="inline-block bg-gray-200 rounded-full  px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Node.js</span>
     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Typescript</span>
-    <span class="inline-block pt-3 sm:pt-0 bg-gray-200 rounded-full  px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Express</span>
+    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Express</span>
     <span class="inline-block bg-gray-200 rounded-full  px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">JWT - bycript</span>
   </div>
 </div>
@@ -151,7 +151,7 @@ function App() {
   </div>
   <div class="sm:px-6 sm:pt-4 sm:pb-2 sm:gap-x-10 grid grid-cols-2 text-center sm:mt-10">
   <span class="inline-block bg-gray-200 rounded-full  px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Django</span>
-    <span class="text-center bg-gray-200 rounded-full px-1 py-1  font-semibold text-gray-700 mr-2 mb-2">sqlite</span>
+    <span class="inline-block bg-gray-200 rounded-full  px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">sqlite</span>
     <span class="inline-block bg-gray-200 rounded-full  px-1 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">rest-framework</span>
     <span class="inline-block bg-gray-200 rounded-full  px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 justify-center">JWT</span>
   </div>
@@ -174,9 +174,9 @@ function App() {
 </div>
 <div class="sm:px-6 sm:pt-4 sm:pb-2 sm:gap-x-10 grid grid-cols-2 text-center sm:mt-3 mt-5">
   <span class="inline-block bg-gray-200 rounded-full  px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Python</span>
-    <span class="text-center bg-gray-200 rounded-full px-1 py-1  font-semibold text-gray-700 mr-2 mb-2">Streamlit</span>
-    <span class="inline-block bg-gray-200 rounded-full  px-1 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Plotly</span>
-    <span class="inline-block bg-gray-200 rounded-full  px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 justify-center">Folium</span>
+    <span class="inline-block bg-gray-200 rounded-full  px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Streamlit</span>
+    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Plotly</span>
+    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Folium</span>
   </div>
 </div>
 
