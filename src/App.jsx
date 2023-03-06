@@ -166,7 +166,7 @@ function App() {
 <a href='https://aljes2310-streamlit-cpue-calamar-gigante-dashboard-app-eal9da.streamlit.app/' target="_blank">   
   <img class="h-full w-full sm:ml-0 sm:w-full sm:h-60 mr-10 bg-white" src="/streamlit-portfolio.JPG"/></a>
 <div class="px-6 py-4 ">
-<div class="font-bold text-xl mb-2 text-center">Playlist API</div>
+<div class="font-bold text-xl mb-2 text-center">Streamlit's Dashboard giant squid catch data</div>
 <p class=" text-sm mt-5 text-center text-white sm:text-base">
       Little and simple dashboard using Python and deployed in Streamlit Cloud. Deployed for purpose of research  
       <span className='text-black'> Click on the screen you will get to the dashboard.</span>
