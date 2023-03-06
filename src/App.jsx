@@ -100,6 +100,8 @@ function App() {
         
           <h3 className='pt-20 font-bold text-5xl text-center text-white mr-1 sm:mr-0'> Projects</h3>
       <p className='text-center sm:text-2xl font-serif mt-12 text-white px-16 mr-3 sm:px-0 smmr-0'> The following projects was made during Back End Bootcamp using several languages and tools </p>
+      
+      {/* division */}
       <div className='flex sm:flex-row sm:gap-x-20 sm:mt-14 justify-center  border-black flex-col sm:mb-10'> 
 
       {/* card 1 */}
@@ -120,7 +122,8 @@ function App() {
 </div>
 {/* card 2 */}
 <div class="border-4 sm:max-w-sm rounded overflow-hidden shadow-xl mt-10 content-center border-indigo-900 border-double sm:p-5 p-2 ml-10 sm:m-0 mr-10 sm:mr-0">
-  <a href='https://github.com/RenatoCespedes/playlist-project' target="_blank">   <img class="h-full w-full sm:ml-0 sm:w-full sm:h-60 mr-10" src="/headphone.JPG"/></a>
+  <a href='https://github.com/RenatoCespedes/playlist-project' target="_blank">   
+  <img class="h-full w-full sm:ml-0 sm:w-full sm:h-60 mr-10" src="/headphone.JPG"/></a>
   <div class="px-6 py-4 ">
     <div class="font-bold text-xl mb-2 text-center">Playlist API</div>
     <p class=" text-sm mt-5 text-center text-white sm:text-base">
@@ -153,9 +156,34 @@ function App() {
     <span class="inline-block bg-gray-200 rounded-full  px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 justify-center">JWT</span>
   </div>
 </div>
+</div>
+
+{/* 2da fila de cards */}
+<div className='flex sm:flex-row sm:gap-x-20 sm:mt-14 justify-center  border-black flex-col sm:mb-10'> 
+
+{/* card 4 */}
+<div class="border-4 sm:max-w-sm rounded overflow-hidden shadow-xl mt-10 content-center border-indigo-900 border-double sm:p-5 p-2 ml-10 sm:m-0 mr-10 sm:mr-0">
+<a href='https://aljes2310-streamlit-cpue-calamar-gigante-dashboard-app-eal9da.streamlit.app/' target="_blank">   
+  <img class="h-full w-full sm:ml-0 sm:w-full sm:h-60 mr-10 bg-white" src="/streamlit-portfolio.JPG"/></a>
+<div class="px-6 py-4 ">
+<div class="font-bold text-xl mb-2 text-center">Playlist API</div>
+<p class=" text-sm mt-5 text-center text-white sm:text-base">
+      Little and simple dashboard using Python and deployed in Streamlit Cloud. Deployed for purpose of research  
+      <span className='text-black'> Click on the screen you will get to the dashboard.</span>
+    </p>
+</div>
+<div class="sm:px-6 sm:pt-4 sm:pb-2 sm:gap-x-10 grid grid-cols-2 text-center sm:mt-3 mt-5">
+  <span class="inline-block bg-gray-200 rounded-full  px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Python</span>
+    <span class="text-center bg-gray-200 rounded-full px-1 py-1  font-semibold text-gray-700 mr-2 mb-2">Streamlit</span>
+    <span class="inline-block bg-gray-200 rounded-full  px-1 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Plotly</span>
+    <span class="inline-block bg-gray-200 rounded-full  px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 justify-center">Folium</span>
+  </div>
+</div>
 
 
 </div>
+
+
         </section>
         
    {/* contact */}
